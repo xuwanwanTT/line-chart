@@ -1,0 +1,45 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+
+#
+/build
+/dist
+
+# misc
+.*
+!.gitignore
+!.editorconfig
+!.gitlab-ci.yml
+!.eslintrc.js
+!.eslintrc.json
+.DS_Store
+Thumbs.db
+*.rar
+*.zip
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+
+package-lock.json
+yarn.lock
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
